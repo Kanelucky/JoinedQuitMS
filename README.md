@@ -1,4 +1,5 @@
-A PowernukkitX plugin.
+A PowernukkitX plugin to replace boring default join and quit messages to your custom messages
+Here plugin's config.yml below
 # Config.yml
 ```yaml
 join-message: "&a[+] &f{player}"
