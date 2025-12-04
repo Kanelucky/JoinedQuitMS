@@ -1,5 +1,5 @@
-A PowernukkitX plugin to replace boring default join and quit messages to your custom messages
-Here plugin's config.yml below
+# JoinedQuitMS
+A simple plugin to replace boring default join and quit messages with your custom messages.
 # Config.yml
 ```yaml
 join-message: "&a[+] &f{player}"
