@@ -2,7 +2,5 @@ name: JoinedQuitMS
 main: cn.kanelucky.JoinedQuitMS
 version: "1.0.0"
 api: "2.0.0"
-load: POSTWORLD
 authors: ["Kanelucky"]
 description: Replace boring default join & quit message with your custom message
-website: https://docs.powernukkitx.org/
