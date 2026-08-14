@@ -1,19 +1,19 @@
 package cn.kanelucky.listener;
 
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.player.PlayerQuitEvent;
-import cn.nukkit.Player;
-import cn.nukkit.utils.TextFormat;
-import cn.nukkit.utils.Config;
 import cn.kanelucky.JoinedQuitMS;
+import org.powernukkitx.Player;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.player.PlayerQuitEvent;
+import org.powernukkitx.utils.TextFormat;
 
-public class QuitMS implements Listener{
+public class QuitMS implements Listener {
     private final JoinedQuitMS plugin;
 
     public QuitMS(JoinedQuitMS plugin) {
         this.plugin = plugin;
     }
+
     @EventHandler
     public void on_player_quit(PlayerQuitEvent event) {
         Player player = event.getPlayer();

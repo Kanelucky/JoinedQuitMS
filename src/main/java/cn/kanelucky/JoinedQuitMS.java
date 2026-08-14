@@ -1,10 +1,9 @@
 package cn.kanelucky;
+
 import cn.kanelucky.listener.JoinedMS;
 import cn.kanelucky.listener.QuitMS;
-import cn.nukkit.plugin.PluginBase;
-import cn.nukkit.utils.TextFormat;
-import cn.kanelucky.listener.JoinedMS;
-import cn.kanelucky.listener.QuitMS;
+import org.powernukkitx.plugin.PluginBase;
+import org.powernukkitx.utils.TextFormat;
 
 public class JoinedQuitMS extends PluginBase {
     @Override

@@ -1,13 +1,11 @@
 package cn.kanelucky.listener;
 
-import cn.nukkit.event.EventHandler;
-import cn.nukkit.event.Listener;
-import cn.nukkit.event.player.PlayerJoinEvent;
-import cn.nukkit.Player;
-import cn.nukkit.utils.TextFormat;
-import cn.nukkit.utils.Config;
 import cn.kanelucky.JoinedQuitMS;
-
+import org.powernukkitx.Player;
+import org.powernukkitx.event.EventHandler;
+import org.powernukkitx.event.Listener;
+import org.powernukkitx.event.player.PlayerJoinEvent;
+import org.powernukkitx.utils.TextFormat;
 
 public class JoinedMS implements Listener {
 
@@ -16,6 +14,7 @@ public class JoinedMS implements Listener {
     public JoinedMS(JoinedQuitMS plugin) {
         this.plugin = plugin;
     }
+
     @EventHandler
     public void on_player_join(PlayerJoinEvent event) {
         Player player = event.getPlayer();
